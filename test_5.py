@@ -19,11 +19,14 @@ button_login = driver.find_element(By.XPATH, '//*[@id="login-button"]')
 button_login.click()
 print('Click Login Button')
 
+<<<<<<< HEAD
 menu = driver.find_element(By.XPATH, '//*[@id="react-burger-menu-btn"]')
 menu.click()
 print('Click Menu Button')
 time.sleep(5)
 
 
+=======
+>>>>>>> origin/master
 time.sleep(10)
 driver.close()
