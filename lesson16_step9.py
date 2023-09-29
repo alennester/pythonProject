@@ -8,7 +8,13 @@ try:
     browser.get(link)
 
     # Ваш код, который заполняет обязательные поля
-    ...
+    f_name = browser.find_element(By.XPATH, '/html/body/div/form/div[1]/div[1]/input')
+    f_name.send_keys('lol')
+    l_name = browser.find_element(By.CSS_SELECTOR, 'body > div > form > div.first_block > div.form-group.second_class > input')
+    l_name.send_keys('kek')
+    em = browser.find_element(By.CSS_SELECTOR, 'body > div > form > div.first_block > div.form-group.third_class > input')
+    em.send_keys('mem@.ru')
+
 
     # Отправляем заполненную форму
     button = browser.find_element(By.CSS_SELECTOR, "button.btn")
