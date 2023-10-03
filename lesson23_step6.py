@@ -25,5 +25,5 @@ string.send_keys(y)
 
 button2 = browser.find_element(By.XPATH, '/html/body/form/div/div/button').click()
 
-time.sleep(5)
+time.sleep(10)
 browser.quit()
