@@ -1,16 +1,13 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def find_all(target, symbol):
+    s = []
+    for symbol in target:
+        s.append(i)
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+# считываем данные
+s = input()
+char = input()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# вызываем функцию
+print(find_all(s, char))
+
